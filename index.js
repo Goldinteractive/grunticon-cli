@@ -27,7 +27,7 @@ try {
 
 // load external config files
 if (opts.config)
-  grunticonOptions = require(path.join(__dirname, opts.config))
+  grunticonOptions = require(path.join(process.cwd(), opts.config))
 
 // run the tasks
 if (opts.version)
