@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Let's use a bit of procedural programming here ;)
 
 // include global shell helpers
@@ -43,6 +45,3 @@ else {
   )
   grunticon.process(() => log(chalk.green('Congrats! You have just compiled your icons')))
 }
-
-
-
