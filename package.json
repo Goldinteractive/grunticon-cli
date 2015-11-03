@@ -1,0 +1,35 @@
+{
+  "name": "grunticon-cli",
+  "version": "1.0.0",
+  "description": "Standalone grunticon command line tool without using Grunt.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goldinteractive/grunticon-cli.git"
+  },
+  "keywords": [
+    "grunticon",
+    "icons",
+    "cli"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Goldinteractive/grunticon-cli/issues"
+  },
+  "homepage": "https://github.com/Goldinteractive/grunticon-cli#readme",
+  "dependencies": {
+    "grunticon-lib": "^1.0.3",
+    "optionator": "^0.6.0",
+    "shelljs": "^0.5.3"
+  },
+  "peerDependencies": {
+    "phantomjs": ">=1.9"
+  },
+  "devDependencies": {
+    "eslint": "^1.8.0"
+  }
+}
