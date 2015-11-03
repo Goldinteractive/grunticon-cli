@@ -1,10 +1,13 @@
 {
   "name": "grunticon-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standalone grunticon command line tool without using Grunt.js",
   "main": "index.js",
   "scripts": {
     "test": "eslint index"
+  },
+  "bin": {
+    "grunticon": "index.js"
   },
   "repository": {
     "type": "git",
