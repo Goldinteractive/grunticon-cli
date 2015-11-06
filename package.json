@@ -1,6 +1,6 @@
 {
   "name": "grunticon-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Standalone grunticon command line tool without using Grunt.js",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Goldinteractive/grunticon-cli#readme",
   "dependencies": {
+    "chalk": "^1.1.1",
     "grunticon-lib": "^1.0.3",
     "optionator": "^0.6.0",
     "shelljs": "^0.5.3"
