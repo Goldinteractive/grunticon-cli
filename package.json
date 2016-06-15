@@ -31,7 +31,7 @@
     "shelljs": "^0.5.3"
   },
   "peerDependencies": {
-    "phantomjs": ">=1.9"
+    "phantomjs": "^1.9"
   },
   "devDependencies": {
     "eslint": "^1.8.0"
